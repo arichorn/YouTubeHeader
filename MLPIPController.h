@@ -13,7 +13,6 @@
 - (BOOL)pictureInPictureActive;
 - (BOOL)contentSourceNeedsRefresh;
 - (CGSize)renderSizeForView:(UIView *)view;
-- (void)initializePictureInPicture; // Deprecated
 - (BOOL)startPictureInPicture; // Deprecated
 - (void)stopPictureInPicture; // Deprecated
 - (void)addPIPControllerObserver:(id)observer;
