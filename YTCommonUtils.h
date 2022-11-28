@@ -9,5 +9,6 @@
 + (unsigned int)uniformRandomWithUpperBound:(unsigned int)upperBound;
 + (UIWindow *)mainWindow; // YTMainWindow
 + (NSBundle *)bundleForClass:(Class)cls;
++ (NSBundle *)resourceBundleForModuleName:(NSString *)module appBundle:(NSBundle *)appBundle;
 + (NSString *)hardwareModel;
 @end
