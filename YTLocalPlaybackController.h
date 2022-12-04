@@ -5,4 +5,5 @@
 - (GIMMe *)gimme; // Deprecated
 - (NSString *)currentVideoID;
 - (int)playerVisibility;
+- (void)setMuted:(BOOL)muted;
 @end

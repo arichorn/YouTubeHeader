@@ -7,4 +7,5 @@
 - (NSString *)currentVideoID;
 - (int)playerViewLayout;
 - (void)didPressToggleFullscreen;
+- (void)setMuted:(BOOL)muted;
 @end
