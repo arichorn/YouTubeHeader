@@ -10,6 +10,9 @@
 @property (nonatomic, strong, readwrite) YTIFormattedString *dislikeCountText;
 @property (nonatomic, strong, readwrite) YTIFormattedString *dislikeCountWithDislikeText;
 @property (nonatomic, strong, readwrite) YTIFormattedString *dislikeCountWithUndislikeText;
+@property (nonatomic, assign, readwrite) BOOL hasLikeCountText;
+@property (nonatomic, assign, readwrite) BOOL hasLikeCountWithLikeText;
+@property (nonatomic, assign, readwrite) BOOL hasLikeCountWithUnlikeText;
 @property (nonatomic, assign, readwrite) BOOL hasDislikeCountText;
 @property (nonatomic, assign, readwrite) BOOL hasDislikeCountWithDislikeText;
 @property (nonatomic, assign, readwrite) BOOL hasDislikeCountWithUndislikeText;
