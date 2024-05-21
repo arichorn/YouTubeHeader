@@ -3,7 +3,7 @@
 #import "YTReelHeaderDelegate.h"
 #import "YTReelTransparentStackView.h"
 
-@interface YTReelHeaderView : UIViewController <YTResponder>
+@interface YTReelHeaderView : UIView <YTResponder>
 @property (nonatomic, strong) id<YTReelHeaderDelegate> delegate;
 @property (nonatomic, strong) YTReelTransparentStackView *leftStackView;
 @property (nonatomic, strong) YTReelTransparentStackView *rightStackView;
