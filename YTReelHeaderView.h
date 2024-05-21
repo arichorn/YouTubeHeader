@@ -11,5 +11,5 @@
 - (void)addRightStackView:(id)view toView:(id)view;
 - (id<YTReelHeaderDelegate>)delegate;
 - (void)setDelegate:(id<YTReelHeaderDelegate>)delegate;
-// - (YTQTMButton *)createButton:(NSString *)tweakId accessibilityLabel:(NSString *)label selector:(SEL)selector;
+- (YTQTMButton *)createButton:(NSString *)tweakId accessibilityLabel:(NSString *)label selector:(SEL)selector;
 @end
