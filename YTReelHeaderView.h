@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "YTResponder.h"
 #import "YTReelHeaderDelegate.h"
+#import "YTReelTransparentStackView.h"
 
 @interface YTReelHeaderView : UIView <YTResponder>
 @property (nonatomic, strong) id<YTReelHeaderDelegate> delegate;
