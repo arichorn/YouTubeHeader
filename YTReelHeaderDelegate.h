@@ -2,5 +2,5 @@
 
 @protocol YTReelHeaderDelegate <NSObject>
 @required
-- (void)didPressYouQuality:(id)arg;
+- (void)didPressVideoQuality:(id)arg;
 @end
