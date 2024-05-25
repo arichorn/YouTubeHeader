@@ -2,5 +2,5 @@
 #import "YTReelHeaderView.h"
 
 @interface YTReelTransparentStackView : UIStackView
-@property(nonatomic, readonly) NSArray<UIView *> *arrangedSubviews;
+@property(nonatomic, readonly, copy) NSArray<UIView *> *arrangedSubviews;
 @end
