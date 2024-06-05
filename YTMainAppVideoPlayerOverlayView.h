@@ -15,6 +15,7 @@
 @interface YTMainAppVideoPlayerOverlayView : UIView
 @property (nonatomic, strong, readwrite) YTInlinePlayerBarView *playerBar;
 - (YTMainAppControlsOverlayView *)controlsOverlayView;
+- (UIViewController *)_viewControllerForAncestor;
 @end
 
 #endif
