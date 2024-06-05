@@ -28,8 +28,6 @@ CF_EXTERN_C_END
 @interface GPBMessage : NSObject <NSSecureCoding, NSCopying>
 @property(nonatomic, copy, nullable) GPBUnknownFieldSet *unknownFields;
 @property(nonatomic, readonly, getter=isInitialized) BOOL initialized;
-+ (id)parseFromData:(id)data;
-+ (id)parseFromData:(id)data error:(NSError **)error;
 - (id)firstSubmessage;
 + (instancetype)message;
 + (nullable instancetype)parseFromData:(NSData *)data error:(NSError **)errorPtr;
