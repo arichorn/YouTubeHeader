@@ -13,7 +13,7 @@
 #import "YTMainAppControlsOverlayView.h"
 
 @interface YTMainAppVideoPlayerOverlayView : UIView
-@property (nonatomic, strong, readwrite) YTInlinePlayerBarView *playerBar;
+@property (nonatomic, strong, readwrite) YTInlinePlayerBarContainerView *playerBar;
 - (YTMainAppControlsOverlayView *)controlsOverlayView;
 - (UIViewController *)_viewControllerForAncestor;
 @end
